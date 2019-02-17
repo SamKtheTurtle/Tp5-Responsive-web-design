@@ -6,7 +6,7 @@
 
 2. Centrer les éléments sur la page grace à un container Bootstrap OK
 
-3. Utiliser la [grille](https://getbootstrap.com/docs/4.2/layout/grid/) fluide de Bootstrap pour définir la largeur des éléments :
+3. Utiliser la [grille](https://getbootstrap.com/docs/4.2/layout/grid/) fluide de Bootstrap pour définir la largeur des éléments :  OK
 
    - Menu
    - Partie principale
