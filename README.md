@@ -11,17 +11,18 @@
    - Menu
    - Partie principale
 
-4. Utiliser les classes de grille (col-xs-_ / col-md-_ etc.) pour afficher successivement les albums par 6 sur grand écran, 4 pour les tablettes et 2 en dessous
+4. Utiliser les classes de grille (col-xs-_ / col-md-_ etc.) pour afficher successivement les albums par 6 sur grand écran, 4 pour les tablettes et 2 en dessous   OK
 
 5. Utiliser Bootstrap pour :
 
    - Masquer la colonne de gauche sur mobile et sur tablette en mode portrait ([display utilities](https://getbootstrap.com/docs/4.2/utilities/display/))
+                <!--<div class="d-none d-lg-block">hide on screens smaller than lg</div>-->
    - Aligner les liens Collection et History à droite lorsque l'espace disponible devient insuffisant
-   - Mettre en place le [menu déroulant](https://getbootstrap.com/docs/4.2/components/dropdowns/) (en haut à droite)
+   - Mettre en place le [menu déroulant](https://getbootstrap.com/docs/4.2/components/dropdowns/) (en haut à droite) OK
 
-6. Remplacer toutes les tailles de police en pixel par des unités relatives (em ou rem)
+6. Remplacer toutes les tailles de police en pixel par des unités relatives (em ou rem) OK
 
-7. Régler le viewport pour les mobiles
+7. Régler le viewport pour les mobiles  OK
 
 ```html
 <meta
@@ -35,7 +36,7 @@ Cela permet d'eviter que l'utilisateur zoom dans votre page web pour naviguer
 8. Utiliser les **medias queries** pour :
 
    - Masquer le champs de recherche lorsque l'espace disponible devient insuffisant
-   - Masquer les icônes twitter et facebook sur mobile
+   - Masquer les icônes twitter et facebook sur mobile OK
    - Ajuster la taille du texte aux 3 points de ruptures suivants : 1400px (grossir) / 600px (plus petit) / 450px (encore plus petit)
 
 9. Redimensionner la fenêtre du navigateur ou émuler la taille du device à travers la console dévelopeur. Tester que la page est visuellement cohérente à toutes les résolutions. Faire les ajustements nécessaires avec les media queries
